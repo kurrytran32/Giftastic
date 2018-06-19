@@ -1,0 +1,14 @@
+#gif-holder{
+    display: flex;
+    flex-direction: row wrap;
+    
+    width: 100%;
+}
+#search-bar {
+    position:fixed;
+    right: 20px;
+}
+#all-content{
+    max-width: 1080px;
+    /* margin: auto; */
+}
