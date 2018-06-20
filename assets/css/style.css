@@ -1,11 +1,27 @@
+body, html {
+    background-image: url(../images/background1.png);
+}
 .gifs{
     display: inline-block;
     margin: 2%;
 }
 .jiffy{ 
     margin: .5%;
+    background-color: #7062A4;
+    color: white;
+    border: 1px solid #878C8D;
+}
+button {
+    border-radius: 10px;
 }
 #all-content {
     width: 1440px;
     margin: auto;
+}
+h1 {
+    color:#1076D5;
+    font-family: 'Lobster', cursive;
+}
+#search-bar {
+    font-family: 'Ubuntu', sans-serif;
 }

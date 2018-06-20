@@ -51,8 +51,9 @@ $(document).on('click', '#gifTags .jiffy', function () {
                 $jif.attr('data-animate', results[i].images.fixed_height.url);
                 $jif.attr('data-still', results[i].images.fixed_height_still.url);
                 //piecing together the gif div
-                $gifDiv.append($p);
                 $gifDiv.append($jif);
+                $gifDiv.append($p);
+                
                 $('#gif-holder').prepend($gifDiv);
             }
         }
