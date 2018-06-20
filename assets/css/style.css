@@ -1,14 +1,11 @@
-#gif-holder{
-    display: flex;
-    flex-direction: row wrap;
-    
-    width: 100%;
+.gifs{
+    display: inline-block;
+    margin: 2%;
 }
-#search-bar {
-    position:fixed;
-    right: 20px;
+.jiffy{ 
+    margin: .5%;
 }
-#all-content{
-    max-width: 1080px;
-    /* margin: auto; */
+#all-content {
+    width: 1440px;
+    margin: auto;
 }

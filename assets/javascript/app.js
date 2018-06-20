@@ -4,6 +4,7 @@ let APIKEY = 'GIm3UiSv15lSaX4ahu1AiJYPlqSjP6wX';
 //adding more buttons
 //setting to get the value from search bar when submit is clicked
 $('#submitbtn').on('click', function () {
+    event.preventDefault();
     let $userWord = $('input:text').val();
     let $userbtn = $('<button>')
 
@@ -21,7 +22,7 @@ $('#submitbtn').on('click', function () {
 $(document).on('click', '#gifTags .jiffy', function () {
     $('#gif-holder').empty();
     let gifTerm = $(this).attr('data-muppet');
-    let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifTerm + "&api_key=" + APIKEY + "&limit=5&rating=g";
+    let queryURL = "https://api.giphy.com/v1/gifs/search?q=" + gifTerm + "&api_key=" + APIKEY + "&limit=10&rating=g";
     $.ajax({
 
         url: queryURL,
